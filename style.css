@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, rgb(0, 255, 191),rgb(224, 7, 195));
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 400px;
+    border-radius: 70px 0px;
+    background-color: white;
+    box-shadow: 2px 2px 12px black;
+    background: linear-gradient(45deg,rgb(7, 196, 79),rgb(214, 255, 30)65%);
+
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.quote-div{
+    margin-top:25px ;
+    width: 100%;
+    height: 100%;
+    background-origin:padding-box;
+    align-items: center;
+    border-radius:30px;
+    
+}
+.quote{
+    overflow:auto;
+    text-align: left;
+    font-size: 20px;
+    text-wrap: wrap;
+    text-align: center;
+    border-radius: 30px;
+    padding: 22px;
+    /* border: 2px solid gray; */
+    margin:15px auto 0px auto;
+    box-shadow: 1px 1px 12px black;
+    width: 90%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(93, 140, 226),rgb(230, 149, 230));    
+}
+blockquote::-webkit-scrollbar{
+        display: none;
+}
+.author{
+    width: 100%;
+    display: block;
+}
+.author p{
+    font-size: 20px;
+    text-align: right; 
+    margin: 20px 20px;
+    font-weight: bold;
+}
+button{
+    width:120px;
+    margin: 15px 20px;
+    color: white;
+    font-size:20px ;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    text-align: center;
+}
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    border:2px solid white;
+    background: linear-gradient(to top, rgb(255, 0, 255),rgb(65, 235, 207));
+    color: black;
+    font-weight: bolder;
+}
